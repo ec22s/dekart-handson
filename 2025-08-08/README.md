@@ -69,20 +69,19 @@
 
   - You are all set の画面から Create report ボタンを押す
 
-    - メイン画面になり、自動的に Untitled という地図が作成されている
+  - メイン画面になり、自動的に Untitled という地図が作成されている
 
-    - 右側にデータ選択欄が出るが、いったんスルー
+  - 地図名を任意に変えてみる
 
-    - 左上のアイコン [ > ] をクリックしてコントロールを開き、背景地図を変更してみる
+  - 右側にデータ選択欄が出るが、いったんスルー
 
-      - TODO: 画像を挿入
+  - 左上のアイコン [ > ] をクリックしてコントロールを開き、背景地図を色々変えてみる
 
-    - 右側の縦に並ぶアイコンの機能を確かめる
+    <img height="192" src="https://github.com/user-attachments/assets/21830cb7-0c8a-4b30-846d-3b6bce7f4e1a" />
 
-      - TODO: 画像を挿入
+  - 右側の縦に並ぶアイコンの機能を確かめる
 
-
-
+    <img height="192" src="https://github.com/user-attachments/assets/a5573de4-b29e-432d-8260-45a636bdf8dd" />
 
 <br>
 
