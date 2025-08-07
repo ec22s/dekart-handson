@@ -36,7 +36,7 @@
 
   - クラウド版が502エラー等で使えない場合もある
 
-    <img height="192" src="https://github.com/user-attachments/assets/" />
+    <img height="128" src="https://github.com/user-attachments/assets/c125ce4c-3879-48b8-a4df-7e804fbbdecd" />
 
 <br>
 
@@ -92,7 +92,7 @@
 
 - 右側のデータ選択欄に Upload File ボタンがあり、CSVとGeoJSONが利用可能
 
-  <img height="192" src="https://github.com/user-attachments/assets/" />
+  <img height="64" src="https://github.com/user-attachments/assets/dc8ef2c3-0e77-47df-9984-43c9fcbc39c5" />
 
 - CSVは緯度・経度を含む点データなら何でも良く、例えば下記などを使える
 
@@ -115,6 +115,10 @@
   - 例えば [Large GeoJSON Files サンプル](https://samples.azuremaps.com/demos/large-geojson-files) の点 (41MB), 線 (16MB), 面 (80MB) いずれもNG
 
   - CSVでデータ量の制約があるかは調査中
+
+<br>
+
+#### 作業 4. CSVまたはGeoJSONをアップロードし、地図に表示する
 
 - ああ
 
