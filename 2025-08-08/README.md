@@ -110,6 +110,10 @@
 
   - [G空間情報センター 歩行空間ネットワークデータ等](https://www.geospatial.jp/ckan/dataset/0401)
 
+  - GeoJSONの確認には [geojson.io](https://geojson.io) (Webサイト) が便利
+
+    - データを表形式で表示でき、列の追加も可能
+
 - GeoJSONでデータ量が多いものはエラーになる
 
   - 例えば [Large GeoJSON Files サンプル](https://samples.azuremaps.com/demos/large-geojson-files) の点 (41MB), 線 (16MB), 面 (80MB) いずれもNG
@@ -120,10 +124,27 @@
 
 #### 作業 4. CSVまたはGeoJSONをアップロードし、地図に表示する
 
-- ああ
+- 1つの地図 (Report) に複数のファイルをアップロードできる
 
-- ああ
+- 各データがレイヤーとなり、左のレイヤーパネルからデータを確認できる
 
+  <img height="64" src="https://github.com/user-attachments/assets/" />
+
+- レイヤーの上下関係や表示/非表示を変えられる
+
+- 各レイヤーの設定を確認し、色など自由に変えてみる
+
+  - アイコン「 ⌵ 」や「︙」で詳細メニューを開ける
+
+  - 色などの基準となる列を選択することで、列値を地図に可視化できる
+
+    <img height="64" src="https://github.com/user-attachments/assets/" />
+
+- レイヤーパネル最上部のアイコンを切り替えて、フィルタやツールチップ等の設定ができる
+
+  - ブラシ (Brush) の効果は未確認
+
+- ここで行った「データをレイヤ化して地図に乗せ、レイヤ別に様々な可視化をする」のがWebGISの基本
 
 <br>
 
