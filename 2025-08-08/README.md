@@ -128,7 +128,7 @@
 
 - 各データがレイヤーとなり、左のレイヤーパネルからデータを確認できる
 
-  <img height="64" src="https://github.com/user-attachments/assets/" />
+  <img height="128" src="https://github.com/user-attachments/assets/3cebd84a-7aa4-4aa0-8780-af45840d9e08" />
 
 - レイヤーの上下関係や表示/非表示を変えられる
 
@@ -138,19 +138,70 @@
 
   - 色などの基準となる列を選択することで、列値を地図に可視化できる
 
-    <img height="64" src="https://github.com/user-attachments/assets/" />
+    <img height="192" src="https://github.com/user-attachments/assets/e8ca820b-3bad-4420-98b9-c7db3df89342" />
 
 - レイヤーパネル最上部のアイコンを切り替えて、フィルタやツールチップ等の設定ができる
 
   - ブラシ (Brush) の効果は未確認
 
-- ここで行った「データをレイヤ化して地図に乗せ、レイヤ別に様々な可視化をする」のがWebGISの基本
+- ここで行った<b>「データをレイヤ化して地図に乗せ、レイヤ別に様々な可視化をする」</b>のがGISの基本
+
+  - ブラウザとデータさえあれば、Dekartで簡単に出来る
+
+- 休憩前の作業でここまで来れれば理想
+
+<br>
+
+#### 作業 5. Dekartの便利機能 (Report, Readme) の確認
+
+- 作成した地図はReportとして自動保存され、新規作成・編集・アーカイブ化 (削除の代わり) ができる
+
+- Reportの共有機能を確認する
+
+  - リンクを作成し、それを渡したDekartユーザは誰でも見れる
+
+  - 共有時の設定により、Reportのデータダウンロードや複製 (Fork) も可能になる
+
+  - BIプラットフォーム「Tableau Public」に似ており、使い勝手が良い
+
+- データ以外に「Readme」としてメモを付けられるのを確認 (管理に役立つ)
+
+<br>
+
+#### 作業 6. BigQueryを使う公式サンプルをやってみる
+
+- BigQuery : Google Cloud内のDBサービス (データ分析や大量・高速処理向き)
+
+  - publicなデータが多数用意されている
+
+  - クラウド版DekartからBigQueryを使うには、予め自分のGoogleアカウントでGoogle Cloudのプロジェクトを作っておく
+ 
+  - ハンズオン用のローカル版Dekartは、自分のGoogle CloudのプロジェクトがなくともBigQueryを使える
+
+    - データ新規作成 > SQL Queryを選択 > BigQueryを使うサンプルSQLを作成できる
+
+      <img height="128" src="https://github.com/user-attachments/assets/8646ef8b-ceb8-40b0-be0f-cebd7cf17d07" />
+
+    - SQL未経験の人も、このサンプルを見れば雰囲気はつかめるかも
+
+- [BigQuery Overture Maps Examples](https://dekart.xyz/docs/about/overture-maps-examples/)
+
+  - 最後の方に六角形メッシュや3Dの例あり (ページ中ほどのサンプルより、むしろ簡単かも)
+
+- [BigQuery Public Datasets](https://dekart.xyz/docs/about/kepler-gl-map-examples/)
+
+- サンプル掲載のSQLを画面右側のパネルに貼り付け実行するだけで、データが作成され地図に可視化される
+
+  - サンプルによってはクエリが古く修正が必要 (TODO: 詳細説明を入れる)
+
+- データの作成・変更をSQLに集約すると、複雑なデータ処理も「誰でもすぐ再現できる」ものになる
+
+- SQLにコメントを入れたりバージョン管理を行うことで、データを使う共同作業に役立つ
+
+- 一方、SQLが複雑になると「何をやっているか」が見えにくい、修正できる人が限られる、など不利な点も出てくる
 
 <br>
 
 #### DekartをセルフホスティングするDockerコンテナ
 
-  - あああ
-
-  - あああ
-
+  - TODO: 説明を入れる
